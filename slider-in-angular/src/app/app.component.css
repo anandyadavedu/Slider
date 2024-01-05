@@ -1,0 +1,57 @@
+.product{
+    padding: 20px 0;
+}
+.slider-wrap{
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+
+}
+.slider-main{
+    position: absolute;
+    width: 200%;
+}
+.item{
+    display: inline-block;
+    width: 405px;
+    height: 150px;
+    background-color: rgb(101, 113, 219);
+    position: relative;
+    margin:0 12px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(235, 237, 238);
+    text-decoration: solid;
+    text-shadow: royalblue;
+    text-size-adjust: 2px;
+}.Prev{
+    position: absolute;
+    left: 0%;
+    top: 46%;
+    transform: translate(-50% -50%);
+    background-color: rgb(18, 212, 44);
+}
+.Next{
+    position: absolute;
+    right: 0%;
+    top: 46%;
+    transform: translate(-50% -50%);
+    background-color: rgb(29, 214, 60);
+}
+#one{
+    background-color: rgb(231, 17, 35);
+    
+}
+#two{
+    background-color: rgb(68, 97, 2);
+}
+#three{
+    background-color: chocolate;
+}
+#four{
+    background-color: rgb(150, 7, 74);
+}
